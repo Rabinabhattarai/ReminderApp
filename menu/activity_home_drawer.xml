@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_routines"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Routines" />
+        <item
+            android:id="@+id/nav_rem"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Reminders" />
+        <item
+            android:id="@+id/nav_hlth"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Health" />
+        <item
+            android:id="@+id/nav_wtr"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Water Drinking reminder" />
+    </group>
+
+    <item android:title="User">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Profile" />
+
+        </menu>
+    </item>
+
+</menu>
