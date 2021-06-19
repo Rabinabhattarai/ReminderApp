@@ -1,0 +1,115 @@
+<resources>
+    <string name="title_activity_home">HOme</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Smart LIfe Guide APP</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_remlist">remlist</string>
+    <string name="title_activity_taglist">taglist</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+          <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+        completions."
+    </string>
+    <string name="error_message_email">Enter valid email</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="error_message_password">error_message_password</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_message_name">Enter Full Name</string>
+
+    <string name="app_name">AlarmReminder</string>
+    <string name="no_cardetails">Click on the button below to begin creating your reminder!</string>
+    <string name="title_activity_add_reminder">Add Reminder</string>
+    <string name="title_activity_edit_reminder">Edit Reminder</string>
+    <string name="title_activity_licenses">Licenses</string>
+
+    <string name="add_reminder">Reminder</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_off">Off</string>
+    <string name="repeat_no">Repetition Interval </string>
+    <string name="repeat_type">Type of Repetitions</string>
+
+    <string name="action_discard_reminder">Discard Reminder</string>
+    <string name="action_save_reminder">Save Reminder</string>
+
+    <string name="editor_activity_title_new_reminder">Add Reminder Details</string>
+    <string name="editor_activity_title_edit_reminder">Edit Reminder</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this Reminder?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_reminder_successful">Reminder deleted</string>
+
+    <string name="editor_delete_reminder_failed">Error with deleting reminder</string>
+
+    <string name="editor_insert_reminder_successful">Reminder saved</string>
+
+    <string name="editor_insert_reminder_failed">Error with saving reminder</string>
+
+    <string name="editor_update_reminder_successful">Reminder updated</string>
+
+    <string name="editor_update_reminder_failed">Error with updating reminder</string>
+
+    <string name="reminder_title">AlarmReminder</string>
+    <string name="activity_settings_title">Settings</string>
+
+
+    <!-- fragments preferences title & summary  water calculation-->
+    <string name="pref_training_title">Training</string>
+    <string name="pref_weight_title">Weight (kg)</string>
+    <string name="pref_water_need_title">Daily Need</string>
+    <string name="pref_gender_title">Gender</string>
+
+    <string name="pref_notif_enable_title">Notifications</string>
+    <string name="pref_notif_sound_title">Sounds</string>
+    <string name="pref_notif_interval_time_title">Time interval</string>
+    <string name="pref_sounds_title">Sounds</string>
+
+
+    <string name="wake_up_review">2 glasses of water after waking up - helps activate internal organs</string>
+    <string name="sleep_review">1 glass of water before going to bed - avoids stroke or heart attack</string>
+    <string name="shower_review">1 glass of water before taking a shower - helps lower blood pressure </string>
+    <string name="meal_review">1 glass of water 30 before a meal - helps digestion</string>
+    <string name="lose_weight">Water speeds up the metabolism. To lose extra weight - drink more water</string>
+    <string name="lack_water">The brain and blood vessels function poorly with a lack of water. To prevent this from happening, maintain a normal water balance</string>
+    <string name="title_activity_history_chart">historyChartActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_viewroutine">viewroutine</string>
+    <string name="title_activity_reminderlist">reminderlist</string>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+</resources>
