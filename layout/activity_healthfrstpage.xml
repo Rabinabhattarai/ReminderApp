@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".healthfrstpage">
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Calculate your BMI First"
+        android:textColor="@color/Bluemine" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Height"
+            android:layout_width="wrap_content"
+            android:textSize="15dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="15dp"
+            android:text="Weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Calculate"
+            android:id="@+id/calculate"
+            android:background="@layout/round_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:textColor="@color/Black"
+        android:text="Your BMI is"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/showbmi"
+        android:textColor="@color/Black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:layout_marginLeft="30dp"
+        android:id="@+id/savebmi"
+        android:layout_marginTop="20dp"
+        android:text="Save BMI"
+        android:layout_width="wrap_content"
+        android:background="@layout/round_shape"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginLeft="30dp"
+        android:id="@+id/seediet"
+        android:layout_marginTop="20dp"
+        android:text="See your diet plan"
+        android:layout_width="wrap_content"
+        android:background="@layout/round_shape"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/seetips"
+        android:text="Health Tips"
+        android:layout_width="wrap_content"
+        android:background="@layout/round_shape"
+        android:layout_height="wrap_content" />
+</LinearLayout>
