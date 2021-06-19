@@ -1,1 +1,1 @@
-# ReminderApp
+# MyApp
